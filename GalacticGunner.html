@@ -1,179 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="Sergey Pozhilov (GetTemplate.com)">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143682312-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-	<title>Mehrara Sarabi - Game Programmer</title>
+  gtag('config', 'UA-143682312-1');
+</script>
 
-	<link rel="shortcut icon" href="img/favicon.png">
 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<!-- Bootstrap -->
-	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
-	<!-- Icon font -->
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-	<!-- Fonts -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
-	<!-- Custom styles -->
-	<link rel="stylesheet" href="assets/css/styles.css">
+  <title>Mehrara Sarabi - Game Programmer</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
 
-	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="mystyle.css" rel="stylesheet">
+
 </head>
-<body>
 
-	<header id="header">
-		<div id="head" class="parallax" parallax-speed="1">
-			<h1 id="logo" class="text-center">
-				<!--<img class="img-circle" src="assets/images/guy.jpg" alt="">-->
-				<span class="title">Galactic Gunner</span>
-				<!--<span class="tagline">A creative man is motivated by the desire to achieve, not by the desire to beat others.</span>-->
-			</h1>
-		</div>
+<body style="background-color:#abdbe3" id="page-top">
 
-		<nav class="navbar navbar-default navbar-sticky">
-			<div class="container-fluid">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-				</div>
-
-				<div class="navbar-collapse collapse">
-
-					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>
-					</ul>
-
-				</div><!--/.nav-collapse -->
-			</div>
-		</nav>
-	</header>
-
-	<main id="main">
-
-		<div class="container">
-
-			<div class="row topspace">
-				<div class="col-sm-8 col-sm-offset-2">
-
-					<article class="post">
-						<header class="entry-header">
-							<h1 class="entry-title">Solo Project Selected for Interview by 'Develop at Ubisoft'</h1>
-						</header>
-						<div class="entry-content">
-							<center>
-								<iframe width="600" height="400"
+      <!-- Navigation -->
+      <a class="menu-toggle rounded" href="#">
+        <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">Navigation Menu</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="index.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <section class="title-section" id="Title">
+        <div class="container text-center">
+            <div class="col-lg-10 mx-auto">
+                <h1>Galactic Gunner</h1>
+                <iframe width="600" height="400"
 										src="https://www.youtube.com/embed/ZSZwozKbxFk">
 								</iframe>
-							</center>
-							<!--<p><img alt="" src="assets/images/mac.jpg"></p>-->
-							<p>    </p>
-							<h4>Introduction</h4>
-
-							<p>
-								Galactic Gunner is a captivating 2D top-down shooter game that showcases my game design and programming skills. Developed entirely in C++ using a provided framework, this project was a standout entry in the 'Develop at Ubisoft' competition, earning me an interview opportunity.
-							</p>
-							<p>
-								By utilizing object-oriented programming principles, I encapsulated all data and behaviors related to each game object. This approach not only streamlined code management and modification but also facilitated code reuse through the implementation of generic base classes and inheritance.
-							</p>
-							<p>
-
-								I employed the singleton design pattern for managing game states to ensure efficient state control. This solution allows seamless access to the state manager from any code section, enabling easy switching between the states.
-							</p>
-							<p>
-								With a focus on minimizing code duplication, I implemented nine distinct enemy types, each deriving from a base enemy class. These enemies exhibit diverse behaviors while intelligently avoiding collisions with each other. The complex enemy design really enhances the gameplay immersion and experience.
-							</p>
-							<p>
-
-								To enhance gameplay variety and ensure a fun dynamic experience, I structured the game progression into waves, introducing a new wave every 30 seconds. The flexibility of this design choice enables effortless addition, removal, and modification of waves, making level design convenient and seamless.
-							</p>
-
-							<blockquote>
-								<p>
-									Other features
-								</p>
-								<p>
-									Upgrade System: Players can enhance their ship's performance by collecting gems dropped by defeated enemies. The upgrade system, coded for quick modification, ensures a rewarding progression curve and enables seamless adjustments to player abilities and weapon upgrades.
-								</p>
-								<p>
-									Save and Load: I integrated a simple yet useful save and load system, allowing players to track their highest and overall records. This feature enhances engagement and encourages players to beat their previous records.
-								</p>
-
-							</blockquote>
-
-							<h4>Game Description</h4>
-							<p>
-								Traverse through galaxies on your spaceship and brace yourself for thrilling battles against various enemy ships.
-							</p>
-							<p>
-								Use your shooting skills and maneuver through waves of enemies while strategically collecting their loot to enhance your ship.
-							</p>
-							<p>
-								Survive relentless waves of enemies as the timer counts down to successfully beat the game.
-							</p>
-
-						</div>
-					</article><!-- #post-## -->
-
-				</div>
-			</div> <!-- /row post  -->
+            </div>
+        </div>
+    </section>
 
 
-		</div>	<!-- /container -->
+    <section class="content-sectiontwo" id="Monster Battles">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2>Introduction</h2>
+                    <p class="lead mb-5">Galactic Gunner is a captivating 2D top-down shooter game that showcases my game design and programming skills. Developed entirely in C++ using a provided framework, this project was a standout entry in the 'Develop at Ubisoft' competition, earning me an interview opportunity.</p>
+                    <p class="lead mb-5">By utilizing object-oriented programming principles, I encapsulated all data and behaviors related to each game object. This approach not only streamlined code management and modification but also facilitated code reuse through the implementation of generic base classes and inheritance.</p>
+                    <p class="lead mb-5">I employed the singleton design pattern for managing game states to ensure efficient state control. This solution allows seamless access to the state manager from any code section, enabling easy switching between the states.</p>
+                    <p class="lead mb-5">With a focus on minimizing code duplication, I implemented nine distinct enemy types, each deriving from a base enemy class. These enemies exhibit diverse behaviors while intelligently avoiding collisions with each other. The complex enemy design really enhances the gameplay immersion and experience.</p>
+                    <p class="lead mb-5">To enhance gameplay variety and ensure a fun dynamic experience, I structured the game progression into waves, introducing a new wave every 30 seconds. The flexibility of this design choice enables effortless addition, removal, and modification of waves, making level design convenient and seamless.</p>
+                    <h2>Other Features</h2>
+                    <p class="lead mb-5">Upgrade System: Players can enhance their ship's performance by collecting gems dropped by defeated enemies. The upgrade system, coded for quick modification, ensures a rewarding progression curve and enables seamless adjustments to player abilities and weapon upgrades.</p>
+                    <p class="lead mb-5">Save and Load: I integrated a simple yet useful save and load system, allowing players to track their highest and overall records. This feature enhances engagement and encourages players to beat their previous records.</p>
+                    <h2>Game Description</h2>
+                    <p class="lead mb-5">Traverse through galaxies on your spaceship and brace yourself for thrilling battles against various enemy ships.</p>
+                    <p class="lead mb-5">Use your shooting skills and maneuver through waves of enemies while strategically collecting their loot to enhance your ship.</p>
+                    <p class="lead mb-5">Survive relentless waves of enemies as the timer counts down to successfully beat the game.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	</main>
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <div class="container">
+            <ul class="list-inline mb-5">
+                <!--<li class="list-inline-item">
+                  <a class="social-link rounded-circle text-white mr-3" href="https://www.facebook.com/jaan.sangha.1">
+                    <i class="icon-social-facebook"></i>
+                  </a>
+                </li>-->
+                <li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/jaan-sangha-055254180">
+                        <i class="icon-social-linkedin"></i>
+                    </a>
+                </li>
+                <!--<li class="list-inline-item">
+                  <a class="social-link rounded-circle text-white" href="#">
+                    <i class="icon-social-github"></i>
+                  </a>
+                </li>-->
+                <!--<li class="list-inline-item">
+                  <a class="social-link rounded-circle text-white" href="https://www.instagram.com/jaan_sangha">
+                    <i class="icon-social-instagram"></i>
+                  </a>
+                </li>-->
+                <!--<li class="list-inline-item">
+                    <a class="social-link rounded-circle text-white" href="mailto:jaansangha10@gmail.com">
+                      <i class="icon-social-google"></i>
+                    </a>
+                  </li>-->
+            </ul>
+            <p class="text-muted small mb-0">Copyright &copy; Mehrara Sarabi 2023</p>
+        </div>
+    </footer>
 
-	<footer id="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-3 widget">
-					<h3 class="widget-title">Contact</h3>
-					<div class="widget-body">
-						<p>
-							<a href="mailto:#">mehrarasb@gmail.com</a><br>
+    <!-- Scroll to Top Button
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
-							<!--234 Hidden Pond Road, Ashland City, TN 37015-->
-						</p>
-					</div>
-				</div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-				<!--<div class="col-md-3 widget">
-					<h3 class="widget-title">Follow me</h3>
-					<div class="widget-body">
-						<p class="follow-me-icons">
-							<a href=""><i class="fa fa-twitter fa-2"></i></a>
-							<a href=""><i class="fa fa-dribbble fa-2"></i></a>
-							<a href=""><i class="fa fa-github fa-2"></i></a>
-							<a href=""><i class="fa fa-facebook fa-2"></i></a>
-						</p>
-					</div>
-				</div>-->
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-			</div> <!-- /row of widgets -->
-		</div>
-	</footer>
-	<footer id="underfooter">
-		<div class="container">
-			<div class="row">
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
 
-				<div class="col-md-6 widget">
-					<div class="widget-body">
-						<p class="text-right">
-							Copyright &copy; 2023, Mehrara Sarabi<br>
-							<!--Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>-->
-					</div>
-				</div>
-
-			</div> <!-- /row of widgets -->
-		</div>
-	</footer>
-
-
-	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
-	<script src="assets/js/template.js"></script>
 </body>
+
 </html>
