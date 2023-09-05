@@ -11116,3 +11116,21 @@ footer.footer .social-link:hover {
 .bioinfo {
   padding: 16px;
 }
+
+.basicpadding {
+  padding: 32px;
+}
+
+.projecthead {
+  min-height: 10rem;
+  position: relative;
+  display: table;
+  width: 100%;
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
